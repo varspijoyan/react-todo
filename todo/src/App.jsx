@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Todo from "../components/Todo";
+import "./App.css";
 
 function App() {
- 
   return (
     <>
-      
+      <Todo />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
