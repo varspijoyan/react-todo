@@ -86,7 +86,7 @@ export default function Todo() {
                 <>
                   <input
                     type="text"
-                    name="text"
+                    name="edit"
                     value={editInputValue}
                     onChange={(e) => setEditInputValue(e.target.value)}
                   />

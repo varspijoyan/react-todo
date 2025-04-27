@@ -1,93 +1,115 @@
 .todoContainer {
-    background-color: white;
-    width: 500px;
-    height: auto;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    border-radius: 10px;
+  background-color: white;
+  width: 500px;
+  height: auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
 }
 
 .inputContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
 }
 
 .inputContainer input {
-    width: 300px;
-    outline: none;
-    border: none;
-    background-color: rgb(212, 217, 218);
-    border-bottom: 1.5px solid grey;
-    border-radius: 10px;
-    height: 30px;
-    padding-left: 10px;
+  width: 300px;
+  outline: none;
+  border: none;
+  background-color: rgb(212, 217, 218);
+  border-bottom: 1.5px solid grey;
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 10px;
 }
 
 .addBtn {
-    padding: 7px 12px;
-    border: none;
-    border-radius: 7px;
-    font-size: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: green;
-    cursor: pointer;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 7px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: green;
+  cursor: pointer;
 }
 
 .addBtn:active {
-    transform: scale(95%) ;
+  transform: scale(95%);
 }
 
 .content {
-    width: 400px;
-    max-height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow-y: auto;
+  width: 400px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
 }
 
 .addedContent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 330px;
-    height: auto;
-    margin: 10px 0;
-    padding: 5px 10px;
-    background-color: rgb(170, 169, 180);
-    border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 330px;
+  height: auto;
+  margin: 10px 0;
+  padding: 5px 10px;
+  background-color: rgb(170, 169, 180);
+  border-radius: 10px;
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
-.editBtn, .deleteBtn {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    font-size: 17px;
-    position: relative;
+.editBtn,
+.deleteBtn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 17px;
+  position: relative;
 }
 
 .editBtn {
-    color: blue;
+  color: blue;
 }
 
 .deleteBtn {
-    color: rgb(194, 2, 2);
+  color: rgb(194, 2, 2);
+}
+
+input[name="edit"] {
+  border: none;
+  outline: none;
+  background-color: rgb(212, 217, 218);
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.saveBtn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(217, 191, 166);
+  cursor: pointer;
 }
