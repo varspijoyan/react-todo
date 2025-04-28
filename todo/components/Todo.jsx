@@ -94,7 +94,7 @@ export default function Todo() {
                     className={styles.saveBtn}
                     onClick={() => handleEdit(item.id, editInputValue)}
                   >
-                    <span class="icon-checkmark"></span>
+                    <span className="icon-checkmark"></span>
                   </button>
                 </>
               ) : (
